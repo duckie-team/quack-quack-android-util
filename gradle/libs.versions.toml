@@ -4,15 +4,15 @@ ktlint-gradle = "11.0.0"
 # https://github.com/JLLeitschuh/ktlint-gradle/issues/589
 # klint 최신 버전과 사용 불가
 ktlint-source = "0.45.2"
-detekt = "1.21.0"
+detekt = "1.22.0"
 
 # build
-gradle-agp = "8.0.0-alpha08"
-kotlin-core = "1.7.20"
-oss-license-plugin = "0.10.5"
+gradle-agp = "8.0.0-alpha11"
+kotlin-core = "1.8.0"
+oss-license-plugin = "0.10.6"
 
 # compose
-compose-core = "1.3.1"
+compose-core = "1.3.2"
 compose-compiler = "1.3.2"
 compose-material3 = "1.0.1"
 compose-activity = "1.6.1"
@@ -25,7 +25,7 @@ kover = "0.6.1"
 logeukes = "1.0.0"
 ktx-core = "1.9.0"
 systemuicontroller = "1.0.1"
-profileinstaller = "1.2.0"
+profileinstaller = "1.2.1"
 customview-poolingcontainer = "1.0.0"
 kotlin-collections-immutable = "0.3.5"
 oss-license-library = "17.0.0"
@@ -34,12 +34,12 @@ oss-license-library = "17.0.0"
 androidx-appcompat = "1.5.1" # needs for oss license activity
 androidx-splash = "1.0.0"
 androidx-datastore = "1.0.0"
-androidx-junit = "1.1.4"
+androidx-junit = "1.1.5"
 androidx-benchmark = "1.1.1"
 
 # test
 junit = "4.13.2"
-junit-engine = "5.9.1"
+junit-engine = "5.9.2"
 
 [plugins]
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
